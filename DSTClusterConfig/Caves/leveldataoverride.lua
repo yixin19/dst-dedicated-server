@@ -1,12 +1,12 @@
 return {
   background_node_range={ 0, 1 },
-  desc="Delve into the caves... together!",
+  desc="探查洞穴…… 一起！",
   hideminimap=false,
   id="DST_CAVE",
   location="cave",
   max_playlist_position=999,
   min_playlist_position=0,
-  name="The Caves",
+  name="洞穴",
   numrandom_set_pieces=0,
   override_level_string=false,
   overrides={
@@ -35,7 +35,6 @@ return {
     monkey="default",
     mushroom="default",
     mushtree="default",
-    petrification="default",
     prefabswaps_start="default",
     reeds="default",
     regrowth="default",
@@ -53,6 +52,7 @@ return {
     trees="default",
     weather="default",
     world_size="default",
+    worldseed="",
     wormattacks="default",
     wormhole_prefab="tentacle_pillar",
     wormlights="default",
@@ -60,5 +60,5 @@ return {
   },
   required_prefabs={ "multiplayer_portal" },
   substitutes={  },
-  version=3 
+  version=4 
 }
